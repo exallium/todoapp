@@ -11,6 +11,6 @@ data class Note(val id: String = EMPTY_STRING,
 
     companion object {
         val EMPTY_STRING = ""
-        val EMPTY_TIMESTAMP = 0L
+        val EMPTY_TIMESTAMP = -1L
     }
 }
